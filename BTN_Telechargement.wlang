@@ -1,0 +1,10 @@
+// WinDev code for BTN_Téléchargement
+PROCEDURE BTN_Téléchargement()
+
+// Ask user to select an image file
+sFichier is string = fOpenDialog("Sélectionner une photo", "", "Images (*.jpg;*.png;*.bmp) *.jpg;*.png;*.bmp")
+
+IF sFichier <> "" THEN
+    // Display the photo in IMG_Photo
+    IMG_Photo = sFichier
+END
