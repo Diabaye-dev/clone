@@ -1,0 +1,4 @@
+[
+  {"task": "Sauvegarde de la base de données", "delay": 5},
+  {"task": "Envoi du rapport", "delay": 10}
+]
